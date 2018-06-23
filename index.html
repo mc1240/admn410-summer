@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Durham House of Pets </title>
+    <link rel="stylesheet" href="article.css">
+    <script src="jquery-1.8.3.min.js"></script>
+    <script type="text/javascript" src="jquery.SuperSlide.2.1.1.js"></script>
+</head>
+<body>
+<div class="main">
+    <div class="header">
+        <h1>Durham House of Pets</h1>
+        <p>
+            <a href="index.html"> About Us</a>
+            <a href="employees.html">Our Team</a>
+            <a href="products.html">Products</a>
+            <a href="dogsupplies.html">Dog Supplies</a>
+            <a href="catsupplies.html">Cat Supplies</a>
+            <a href="fishsupplies.html">Snake Supplies</a>
+            <a href="policies.html">Policies</a>
+            <a href="contact_us.html"> Contact us</a>
+            
+        </p>
+    </div>
+    <div id="slideBox2" class="slideBox2">
+        <div class="bd">
+            <ul>
+                <li><img src="4.jpg"/></li>
+                <li><img src="5.jpg"/></li>
+                <li><img src="6.jpg"/></li>
+            </ul>
+        </div>
+        <a class="prev" href="javascript:void(0)"></a>
+        <a class="next" href="javascript:void(0)"></a>
+
+    </div>
+
+    <script type="text/javascript">
+        jQuery(".slideBox2").slide({mainCell: ".bd ul", autoPlay: true});
+    </script>
+    <div class="video">
+        <img src="7.jpg" alt="">
+        <ul>
+            <li><a href="dogsupplies.html">Dog Supplies</a></li>
+            <li><a href="catsupplies.html">Cat Supplies</a></li>
+            <li><a href="fishsupplies.html">Snake Supplies</a></li>
+        </ul>
+    </div>
+    <div class="list">
+        <div class="left">
+            <p><span>snacks</span> <span>Health care </span> <span>medical treatment</span></p>
+            <div class="con-founed">
+            	Founded in 2008, it is a leading Internet Co focusing on pet industry in China. The e-commerce platform under its flag was launched in July 2009, adhering to the concept of "genuine, selected and simple", with a good service and good reputation for 6 consecutive years to maintain a high speed growth of 200%. From the development to the present, it has established its own headquarters in Chongqing, Beijing, Shanghai, Guangzhou, Chengdu, Xi'an and other places to set up branches. And 10000 square meters of the national warehouse, is the pet products favored by thousands of pet products independent B2C platform. The pet social platform, launched in October 2013, is committed to becoming the largest pet social platform in China. It provides interesting features such as picture sharing, life records, Party activities, close friends and so on, and records every day of pet growth.
+            </div>
+        </div>
+        <div id="slideBox3" class="slideBox3">
+            <div class="bd">
+                <ul>
+                    <li><img src="1.jpg"/></li>
+                    <li><img src="2.jpg"/></li>
+                    <li><img src="3.jpg"/></li>
+                </ul>
+            </div>
+
+            <!-- 下面是前/后按钮代码，如果不需要删除即可 -->
+            <a class="prev" href="javascript:void(0)"></a>
+            <a class="next" href="javascript:void(0)"></a>
+
+        </div>
+
+        <script type="text/javascript">
+            jQuery(".slideBox3").slide({mainCell: ".bd ul", autoPlay: true});
+        </script>
+    </div>
+    <div class="footer">
+        Durham House of Pets
+    </div>
+</div>
+</body>
+</html>
